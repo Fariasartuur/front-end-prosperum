@@ -1,0 +1,26 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.mainInner {
+    padding: 0 16px 16px 8px;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    transition: margin-left 0.4s ease;
+}
+
+.contentExpanded {
+    margin-left: 286px; 
+}
+
+.contentCollapsed {
+    margin-left: 91px;
+}

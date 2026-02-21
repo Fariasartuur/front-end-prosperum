@@ -1,0 +1,183 @@
+.welcome {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, var(--verde-escuro), var(--verde));
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.welcome p {
+    color: #eee;
+    font-size: 16px;
+}
+
+.valor {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.azul {
+    color: #2980b9;
+}
+
+.laranja {
+    color: #f39c12;
+}
+
+.verde {
+    color: var(--verde);
+}
+
+.vermelho {
+    color: var(--vermelho);
+}
+
+.desempenho {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 20px 0;
+    width: 100%;           /* Ocupa no máximo o que o pai permitir */
+    max-width: 100%;       /* Garante que não ultrapasse 100% da tela/container */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+    flex-wrap: wrap;       /* Se não couber, joga o item para a linha de baixo em vez de expandir a página */
+    padding-right: 20px;
+}
+
+.desempenho > * {
+    flex: 1;               /* Faz os itens crescerem igualmente */
+    min-width: 0;          /* Importante: permite que o flex-item encolha menos que o conteúdo */
+}
+
+.cardsWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-items: center;
+    gap: 1rem;
+    width: 100%; /* Adicione de volta para garantir que ele preencha o espaço */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+.graficoArea {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.togglePrivacy {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--verde-escuro);
+    font-size: 1.5rem;
+    z-index: 10;
+}
+
+.floatingBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.floatingBtn button {
+    background: linear-gradient(135deg, var(--verde-escuro), var(--verde));
+    color: white;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    position: relative;
+}
+
+.floatingBtn button:hover {
+    transform: scale(1.05);
+}
+
+.chatTooltip {
+    position: absolute;
+    bottom: 75px;
+    /* acima do botão */
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(5px);
+    pointer-events: none;
+    white-space: nowrap;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* seta do tooltip */
+.chatTooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* quando passa o mouse */
+.floatingBtn:hover .chatTooltip {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.atualizacoes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 300px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.atualizacoes > * {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.atualizacoes h2 {
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.compromissos, .tarefas, .registros {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    background: white;
+}
+
+
+
+

@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.userInfo span {
+    font-size: 28px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.userDetails {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.userDetails {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.userAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userText span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.userText p {
+    font-size: 12px;
+    color: #666;
+}
+
+.menuTrigger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    color: #333;
+    transition: transform 0.2s;
+}
+
+/* Estilo do Menu Dropdown */
+.customDropdown {
+    position: absolute;
+    top: 120%; /* Fica logo abaixo do container */
+    right: 0;   /* Alinha na direita para não sair da tela */
+    background-color: #F5F5F5; /* Cor Gelo/Off-white */
+    min-width: 180px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    padding: 8px;
+    z-index: 100;
+    border: 1px solid #ddd;
+}
+
+/* Itens do Menu */
+.dropdownItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.dropdownItem:hover {
+    background-color: var(--verde); /* Seu Roxo preferido */
+    color: white;
+}
+
+.dropdownItem span {
+    font-size: 18px !important;
+}
+
+.logout {
+    margin-top: 8px;
+}
+
+.logout:hover {
+    background-color: #ff4d4d; /* Vermelho para o Sair */
+}
+
+.dropdownLink,
+.logoutLink {
+    text-decoration: none;
+    color: inherit;
+}

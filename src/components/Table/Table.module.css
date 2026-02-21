@@ -1,0 +1,201 @@
+.opcoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 40px;
+}
+
+.search{
+    width: 50%;
+    height: 40px;
+    outline: none;
+    margin-right: 20px;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.filterBar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb; 
+    align-items: flex-end;
+    border-radius: 12px;
+    animation: slideIn 0.2s ease-out;
+}
+
+.filterGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #9ca3af; /* gray-400 */
+    text-transform: uppercase;
+}
+
+.select {
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: white;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.select:focus {
+    border-color: #059669; /* emerald-600 */
+}
+
+.clearButton {
+    margin-left: auto; /* Empurra para a direita */
+    font-size: 12px;
+    color: #047857; /* emerald-700 */
+    font-weight: 700;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.clearButton:hover {
+    text-decoration: underline;
+}
+
+.closeButton {
+    background: none;
+    border: none;
+    color: #9ca3af;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.closeButton:hover {
+    color: #ef4444; /* red-500 */
+}
+
+/* Animação */
+@keyframes slideIn {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.table {
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    color: #6b7280; /* gray-500 */
+    background-color: white;
+    border-collapse: collapse; /* Essencial para as bordas funcionarem bem */
+
+}
+
+.thead {
+    font-size: 12px;
+    color: #374151; /* gray-700 */
+    text-transform: uppercase;
+    background-color: #f9fafb; /* gray-50 */
+}
+
+.th {
+    padding: 12px 24px;
+    font-weight: 700;
+}
+
+.tbody {
+    background-color: white;
+}
+
+/* Linha separadora entre as linhas do corpo */
+.tbody tr {
+    border-bottom: 1px solid #e5e7eb; /* gray-200 */
+}
+
+.tr {
+    transition: background-color 0.2s ease;
+}
+
+.tr:hover {
+    background-color: #f9fafb; /* gray-50 */
+}
+
+.td {
+    padding: 16px 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona os "..." se o texto for longo */
+    max-width: 200px; /* Equivalente ao max-w-50 do Tailwind */
+    color: #4b5563; /* gray-600 */
+}
+
+.actionsTd {
+    cursor: pointer;
+    text-align: center;
+    color: #9ca3af;
+    transition: color 0.2s;
+}
+
+.actionsTd:hover {
+    color: #7b2cbf; /* Seu roxo principal no hover das ações */
+}
+
+.empty {
+    padding: 40px 24px;
+    text-align: center;
+    color: #9ca3af; /* gray-400 */
+}
+
+.filterButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: fit-content;
+
+    border: 2px solid transparent; 
+    border-radius: 20px;
+
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(to right, var(--verde), var(--verde-escuro));
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.4s ease;
+    max-height: 40px;
+}

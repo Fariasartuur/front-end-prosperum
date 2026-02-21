@@ -1,0 +1,235 @@
+.sidebar {
+  width: 270px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: linear-gradient(90deg, var(--verde-escuro), var(--verde));
+  transition: width 0.4s ease;
+  z-index: 1000;
+}
+
+.sidebar.collapsed {
+  width: 85px;
+}
+
+.sidebarHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 20px;
+}
+
+.sidebarHeader .toggler{
+  
+  width: 35px;
+  height: 35px;
+  color: var(--verde-escuro);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFF;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.sidebarHeader .sidebarToggler {
+  position: absolute;
+  right: 20px;
+}
+
+.sidebar.collapsed .sidebarHeader .sidebarToggler {
+  transform: translate(-4px, 65px);
+}
+
+.sidebarHeader .toggler:hover {
+  background: #dde4fb;
+}
+
+.sidebarHeader .menu-toggler {
+  display: none;
+}
+
+.sidebarHeader .sidebarToggler span {
+  font-size: 1.75rem;
+  transition: 0.4s ease;
+}
+
+.sidebar.collapsed .sidebarHeader .sidebarToggler span {
+  transform: rotate(180deg);
+}
+
+.sidebarNav .navLink{
+  color: white;
+  text-decoration: none;
+  padding: 12px 15px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+.sidebarNav .navLink:hover {
+  background: #fff;
+  color: var(--verde-escuro);
+  transition: 0.4s ease;
+}
+
+.sidebarNav .navLink .navLabel {
+  transition: opacity 0.4s ease;
+}
+
+.sidebar.collapsed .sidebarNav .navLink .navLabel {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sidebarNav .navList{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 0 15px;
+  transform: translateY(15px);
+  transition: 0.4s ease;
+}
+
+.sidebar.collapsed .sidebarNav .primaryNav {
+  transform: translateY(65px);
+}
+
+.sidebarNav .secondaryNav {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.sidebarNav .navItem {
+  position: relative;
+}
+
+.sidebarNav .navTooltip{
+  background: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  opacity: 0;
+  display: none;
+  pointer-events: none;
+  color: var(--verde-escuro);
+  position: absolute;
+  top: -10px;
+  left: calc(100% + 25px);
+  white-space: nowrap;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transition: 0s;
+
+}
+
+.sidebar.collapsed .sidebarNav .navTooltip {
+  display: block;
+}
+
+.sidebarNav .navItem:hover .navTooltip {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(50%);
+  transition: 0.4s ease;
+}
+
+.sidebar.collapsed ~ .container {
+  margin-left: 85px;
+}
+
+
+
+.sidebar.collapsed ~ footer {
+  margin-left: 85px;
+}
+
+.navItem.active .navLink {
+    background: #fff;
+    color: var(--verde-escuro);
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navItem.active .navIcon {
+    color: var(--verde-escuro);
+}
+
+.navItem.active::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 20%;
+    height: 60%;
+    width: 4px;
+    background: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+/*
+@media (max-width: 1024px) {
+  .sidebar {
+    height: 56px;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin: 13px;
+    width: calc(100% - 28px);
+    max-height: calc(100vh - 28px);
+  }
+
+  .sidebarHeader {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--verde-escuro);
+    padding: 8px 10px;
+    border-radius: 16px;
+  }
+
+  .sidebarHeader .headerLogo img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sidebarHeader .sidebarToggler {
+    display: none;
+  }
+
+  .sidebarHeader .menuToggler {
+    display: flex;
+    height: 30px;
+    width: 30px;
+  }
+
+  .sidebarHeader .menuToggler span {
+    font-size: 1.3rem;
+  }
+
+  .sidebarNav .navList {
+    padding: 0 10px;
+  }
+
+  .sidebarNav .navLink {
+    gap: 10px;
+    padding: 10px;
+    font-size: 0.94rem;
+  }
+
+  .sidebarNav .navLink .navIcon {
+    font-size: 1.37rem;
+  }
+
+  .sidebarNav .secondaryNav {
+    position: relative;
+    bottom: 0;
+    margin: 40px 0 30px;
+  }
+
+}
+  */

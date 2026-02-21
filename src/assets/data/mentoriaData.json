@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "titulo": "Gestão Financeira",
+    "descricao": "Organize, Controle e Prospere.",
+    "conteudoModal": {
+      "introducao": "Controle seu dinheiro! Saiba como criar um orçamento simples, acompanhar suas entradas e saídas, e tomar decisões financeiras mais inteligentes para o seu negócio.",
+      "topicos": [
+        {
+          "titulo": "Controle de fluxo de caixa",
+          "instrucao": "Monitore o fluxo de entrada e saída de dinheiro. Isso ajuda a evitar surpresas e possibilita o planejamento para imprevistos. "
+        },
+        {
+          "titulo": "Orçamento empresarial",
+          "instrucao": "Elabore um orçamento detalhado que contemple todas as áreas da empresa (operacional, marketing, recursos humanos, etc.) e mantenha o controle de gastos. "
+        },
+        {
+          "titulo": "Redução de custos",
+          "instrucao": "Analise as despesas regularmente e veja onde é possível reduzir custos sem comprometer a qualidade do serviço ou produto."
+        },
+        {
+          "titulo": "Investimentos inteligentes",
+          "instrucao": "Avalie os melhores lugares para investir o capital, priorizando oportunidades que tragam um retorno positivo a curto e longo prazo."
+        },
+        {
+          "titulo": "Criação de reservas financeiras",
+          "instrucao": "Além de controlar o fluxo de caixa, é importante manter uma reserva para imprevistos, garantindo a sustentabilidade do negócio em períodos de baixa receita ou emergências."
+        },
+        {
+          "titulo": "Análise de rentabilidade",
+          "instrucao": "Avaliar a rentabilidade de cada produto ou serviço oferecido, para garantir que a empresa esteja direcionando esforços para as áreas mais lucrativas."
+        },
+        {
+          "titulo": "Análise de fluxo de caixa projetado",
+          "instrucao": "Criar uma projeção de fluxo de caixa para os próximos meses para ajudar a antecipar desafios e ajustar rapidamente as estratégias financeiras, com base em entradas e saídas previstas."
+        }
+      ],
+      "perguntasFrequentes": [
+        {
+          "pergunta": "Qual a importância de um orçamento empresarial?",
+          "resposta": "Ele ajuda a evitar gastos excessivos, a identificar áreas de melhoria e a garantir que o dinheiro da empresa seja investido de forma eficiente."
+        },
+        {
+          "pergunta": "Como elaborar um orçamento empresarial eficiente?",
+          "resposta": "Um orçamento empresarial eficiente deve contemplar todas as áreas da empresa, como operações, marketing, recursos humanos, e manter o controle rígido sobre os gastos, alinhando as despesas com os objetivos estratégicos."
+        },
+        {
+          "pergunta": "O que é fluxo de caixa e como ele impacta a saúde financeira da empresa?",
+          "resposta": "O fluxo de caixa é o registro de todas as entradas e saídas de dinheiro, essencial para garantir que a empresa tenha recursos para honrar seus compromissos e planejar o futuro."
+        },
+        {
+          "pergunta": "Qual a importância de ter uma reserva financeira para a empresa?",
+          "resposta": "A reserva financeira garante que a empresa tenha recursos para enfrentar períodos de baixa receita ou emergências, evitando o endividamento e a instabilidade."
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "titulo": "Gestão Empresarial",
+    "descricao": "Planeje, Organize e Cresça.",
+    "conteudoModal": {
+      "introducao": "Liderança e organização são a chave para o sucesso! Aprenda a definir metas claras, delegar tarefas, motivar sua equipe e tomar decisões estratégicas para o crescimento do seu negócio.",
+      "topicos": [
+        {
+          "titulo": "Planejamento Estratégico",
+          "instrucao": " Defina metas claras e estabeleça estratégias para alcançá-las. O planejamento deve ser flexível para se adaptar às mudanças do mercado."
+        },
+        {
+          "titulo": "Delegação de Tarefas",
+          "instrucao": "Confie nas competências da sua equipe, delegue responsabilidades e estabeleça uma comunicação clara para que todos saibam o que é esperado."
+        },
+        {
+          "titulo": "Acompanhamento de Resultados",
+          "instrucao": "Avalie o desempenho da empresa com base em indicadores de sucesso (KPIs). Isso permite ajustes rápidos e melhora o desempenho."
+        },
+        {
+          "titulo": "Cultura Organizacional",
+          "instrucao": "Fomentar uma cultura que promova o alinhamento entre os objetivos da empresa e os valores da equipe, criando um ambiente de trabalho mais engajado e motivado."
+        },
+        {
+          "titulo": "Gestão de Mudanças",
+          "instrucao": "Como identificar possíveis riscos (financeiros, operacionais, reputacionais) e criar planos de contingência para mitigar esses riscos."
+        },
+        {
+          "titulo": "Inovação e Adaptação",
+          "instrucao": "Enfatizar a importância de inovar no produto ou serviço, além de adaptar o negócio às mudanças do mercado, para garantir a competitividade."
+        }
+      ],
+      "perguntasFrequentes": [
+        {
+          "pergunta": "O que é um plano de negócios?",
+          "resposta": " É um documento que descreve o seu negócio, seus objetivos e como você pretende alcançá-los."
+        },
+        {
+          "pergunta": "Como posso melhorar a comunicação com minha equipe para garantir o sucesso das metas?",
+          "resposta": "Estabeleça reuniões regulares, seja claro e objetivo, e incentive o feedback contínuo para ajustar a comunicação e as estratégias conforme necessário. "
+        },
+        {
+          "pergunta": "Como melhorar o desempenho da minha equipe?",
+          "resposta": "Invista em treinamento e desenvolvimento contínuo, incentive a comunicação aberta e reconheça as boas performances."
+        },
+        {
+          "pergunta": "Por que o planejamento estratégico é crucial para o sucesso do negócio?",
+          "resposta": "O planejamento estratégico orienta as ações da empresa, garantindo que os recursos sejam usados de forma eficaz e ajudando a antecipar desafios e se adaptar às mudanças do mercado."
+        },
+        {
+          "pergunta": "Como delegar tarefas de maneira eficaz e garantir que a equipe atenda às expectativas?",
+          "resposta": "Confie nas competências da equipe, seja claro nas instruções e forneça apoio quando necessário, garantindo que todos saibam o que se espera deles e promovendo a colaboração."
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "titulo": "Organização de Tarefas",
+    "descricao": "Produtividade para o seu dia a dia.",
+    "conteudoModal": {
+      "introducao": "Aumente sua produtividade! Descubra técnicas simples para organizar suas tarefas, eliminar distrações e otimizar seu tempo.",
+      "topicos": [
+        {
+          "titulo": "Estabeleça prioridades",
+          "instrucao": "Identifique as tarefas mais urgentes e importantes. Use a matriz de Eisenhower (urgente/importante) para definir o que deve ser feito primeiro."
+        },
+        {
+          "titulo": "Estabeleça metas diárias e semanais",
+          "instrucao": " Divida tarefas grandes em pequenas metas para facilitar o cumprimento das atividades."
+        },
+        {
+          "titulo": "Técnicas de gestão de tempo",
+          "instrucao": "Além da Matriz de Eisenhower, outras técnicas, como Pomodoro ou Time Blocking, podem ser úteis para otimizar a execução das tarefas."
+        },
+        {
+          "titulo": "Delegação eficiente",
+          "instrucao": "Enfatizar a importância de delegar não só tarefas, mas também a autoridade de decisão quando possível, para melhorar a agilidade da empresa."
+        },
+        {
+          "titulo": "Defina um sistema de revisão semanal",
+          "instrucao": "Estabeleça um momento na semana para revisar o progresso das tarefas e planejar a próxima semana. Isso pode ajudar a manter o foco e a organização."
+        },
+        {
+          "titulo": "Acompanhamento de resultados",
+          "instrucao": "Não apenas definir metas, mas também monitorar o progresso delas de forma regular. Ferramentas como o Google Keep ou Evernote podem ser usadas para revisar status de tarefas pendentes."
+        }
+      ],
+      "perguntasFrequentes": [
+        {
+          "pergunta": "Como posso aumentar minha produtividade?",
+          "resposta": "Crie um planejamento diário, evite multitarefas e mantenha uma rotina que inclua pausas regulares."
+        },
+        {
+          "pergunta": "Qual é a melhor forma de definir prioridades no trabalho?",
+          "resposta": "Classifique as tarefas com base em sua urgência e importância, focando no que trará mais resultados imediatos para o negócio."
+        },
+        {
+          "pergunta": "Como estabelecer prioridades eficazmente para melhorar minha produtividade?",
+          "resposta": " Use a matriz de Eisenhower para classificar as tarefas com base em urgência e importância, focando nas que trazem os maiores resultados para o negócio."
+        },
+        {
+          "pergunta": "Como posso melhorar minha gestão de tempo e aumentar minha produtividade no trabalho?",
+          "resposta": "Utilize técnicas como Pomodoro, Time Blocking e defina metas claras para cada dia, evitando a multitarefa e assegurando que as tarefas sejam executadas de forma focada e sem interrupções."
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "titulo": "Marketing Digital",
+    "descricao": "Conecte-se e expanda seu negócio.",
+    "conteudoModal": {
+      "introducao": "Atraia mais clientes para o seu negócio! Aprenda as bases do marketing digital e como utilizar ferramentas como as redes sociais, e-mail marketing e SEO para divulgar sua marca.",
+      "topicos": [
+        {
+          "titulo": "Entenda seu público-alvo",
+          "instrucao": " Conheça as necessidades e preferências dos seus clientes para criar campanhas mais eficazes."
+        },
+        {
+          "titulo": "Utilize as redes sociais",
+          "instrucao": "As plataformas como Instagram, LinkedIn e Facebook são ferramentas poderosas para construir relacionamento com clientes."
+        },
+        {
+          "titulo": "Automatização de marketing",
+          "instrucao": "Incluir dicas sobre como utilizar ferramentas de automação de marketing (como Mailchimp ou HubSpot) para otimizar campanhas de e-mail marketing e gestão de leads."
+        },
+        {
+          "titulo": "Análise de dados e métricas",
+          "instrucao": "Ensinar como medir o retorno de investimento (ROI) de suas campanhas e como ajustar estratégias baseadas nos dados coletados."
+        },
+        {
+          "titulo": "Marketing de Influência",
+          "instrucao": "Explorar o uso de influenciadores para promover o seu produto, destacando como escolher o influenciador certo que se alinha aos valores da sua marca."
+        },
+        {
+          "titulo": "Marketing de conteúdo",
+          "instrucao": "Criar conteúdo relevante e útil para atrair o público, utilizando blogs, vídeos e outros formatos que agreguem valor para os clientes e ajudem na construção de autoridade de marca."
+        }
+      ],
+      "perguntasFrequentes": [
+        {
+          "pergunta": "O que é SEO e como ele pode beneficiar o meu negócio?",
+          "resposta": "SEO (Search Engine Optimization) é o processo de otimizar seu site para aparecer nas primeiras páginas de busca do Google, aumentando a visibilidade e o tráfego de clientes potenciais."
+        },
+        {
+          "pergunta": "Por que utilizar redes sociais para o meu negócio e como elas ajudam a atrair clientes?",
+          "resposta": "As redes sociais ajudam a construir um relacionamento com os clientes, aumentar o reconhecimento da marca e divulgar produtos ou serviços de forma eficaz, gerando engajamento e fidelização."
+        },
+        {
+          "pergunta": "Como medir a eficácia das campanhas de marketing digital?",
+          "resposta": "Acompanhe as métricas-chave (como ROI, taxa de conversão, custo por aquisição) para avaliar o retorno das campanhas e ajustar as estratégias conforme necessário."
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "titulo": "Atendimento ao Cliente",
+    "descricao": "Conquiste e fidelize com excelência.",
+    "conteudoModal": {
+      "introducao": "Um bom atendimento ao cliente é fundamental para o sucesso do seu negócio. Aprenda a lidar com clientes satisfeitos e insatisfeitos, e como construir um relacionamento duradouro com seus clientes.",
+      "topicos": [
+        {
+          "titulo": "Encantamento do cliente",
+          "instrucao": "Além de resolver problemas, criar estratégias para encantar o cliente e transformar a experiência em algo memorável, aumentando a lealdade."
+        },
+        {
+          "titulo": "Feedback contínuo",
+          "instrucao": "Incentivar o uso de pesquisas de satisfação e outros mecanismos para obter feedback constante dos clientes, promovendo melhorias contínuas."
+        },
+        {
+          "titulo": "Personalização do atendimento",
+          "instrucao": "Enfatizar a importância de personalizar o atendimento, criando experiências únicas para os clientes, o que pode gerar maior fidelização. "
+        }
+      ],
+      "perguntasFrequentes": [
+        {
+          "pergunta": "Por que a satisfação do cliente é importante?",
+          "resposta": "Clientes satisfeitos tendem a voltar a comprar e indicar seu negócio para outras pessoas. Tráfego de clientes potenciais."
+        },
+        {
+          "pergunta": "Qual a importância de personalizar o atendimento ao cliente e como isso impacta o sucesso do negócio?",
+          "resposta": "A personalização do atendimento cria uma experiência única para o cliente, aumentando a satisfação e a lealdade, o que pode resultar em compras repetidas e indicações."
+        },
+        {
+          "pergunta": "Como lidar com uma reclamação de cliente de forma eficiente?",
+          "resposta": "Ouça atentamente, mostre empatia, resolva rapidamente o problema e agradeça pelo feedback, mostrando que a opinião do cliente é valiosa e ajudando a fidelizar a relação."
+        }
+      ]
+    }
+  }
+]

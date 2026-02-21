@@ -1,0 +1,197 @@
+.pageGrid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    height: auto;
+}
+
+.leftPanel {
+    grid-column: 1 / 2;
+    height: calc(100vh - 50px);
+    padding: 10px;
+    background: white;
+    border-radius: 12px;
+}
+
+.rightPanel {
+    grid-column: 2 / 3;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(90deg, var(--verde), var(--verde-escuro));
+    padding: 8px;
+    border-radius: 16px;
+    width: 320px;
+    margin-bottom: 20px;
+}
+
+.tab {
+    padding: 12px 15px;
+    border: none;
+    background: transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+    font-weight: 500;
+    width: 100%;
+}
+
+.tab.active {
+    background: #fff;
+    color: var(--verde);
+}
+
+.tabContent.active {
+    display: flex;
+}
+
+.datetime {
+    width: 320px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.datetime .scheduleIcon {
+    font-size: 20px;
+    color: var(--verde);
+}
+
+.datetimeHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.datetimeHeader span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.datetimeContent {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 10px;
+    transition: all 0.3s ease;
+}
+
+.toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.toggle input {
+    display: none;
+}
+
+.slider {
+    width: 32px;
+    height: 18px;
+    background: #ddd;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.slider::before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    transition: 0.3s;
+}
+
+.toggle input:checked+.slider {
+    background: #27ae60;
+}
+
+.toggle input:checked+.slider::before {
+    transform: translateX(14px);
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+.agendaForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rightPanel :global(.fc) {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.rightPanel :global(.fc .fc-button-primary) {
+    background: linear-gradient(0deg, var(--verde), var(--verde-escuro));
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.rightPanel :global(.fc .fc-button-primary:hover) {
+    background-color: white;
+    color: var(--verde);
+}
+
+/* Ajustar a cor do título do mês */
+.rightPanel :global(.fc .fc-toolbar-title) {
+    color: #121212;
+    /* Seu preto */
+    font-weight: 700;
+}
+
+.rightPanel :global(.fc .fc-button-primary:not(:disabled).fc-button-active) {
+    background-color: var(--verde);
+    color: white;
+    border-color: var(--verde);
+}
+
+.rightPanel :global(.fc .fc-button-primary:not(:disabled).fc-button-active:hover) {
+    background-color: white;
+    color: var(--verde);
+}
+
+.saveButton {
+    background: linear-gradient(90deg, var(--verde), var(--verde-escuro));
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    width: 100%;
+}

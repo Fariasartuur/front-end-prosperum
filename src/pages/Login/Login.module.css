@@ -1,0 +1,203 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #63ffa4, #ffffff);
+}
+
+.registerTitle,
+.loginTitle {
+    font-size: 32px;
+    text-align: center;
+    color: var(--verde);
+    margin-bottom: 20px;
+}
+
+.loginContainer {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.loginGrid, .registerGrid {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.esqueceuSenha {
+    align-self: center;
+    font-size: 14px;
+    color: var(--verde);
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* O container que vai deslizar */
+.dividerContainer {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--verde-escuro), var(--verde));
+    color: white;
+    transition: transform 0.4s ease;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste das bordas conforme o lado */
+.toRight {
+    transform: translateX(100%);
+    border-radius: 0 12px 12px 0;
+}
+
+.toLeft {
+    transform: translateX(0%);
+    border-radius: 12px 0 0 12px;
+}
+
+.dividerContainer h2 {
+    text-align: center;
+    color: white;
+}
+
+.dividerContainer p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.dividerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.dividerContent h2 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dividerContent p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+
+/* Estilo do link de troca dentro do parágrafo */
+.dividerContent a {
+    display: inline-block;
+    margin-top: 5px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dividerContent a:hover {
+    background: white;
+    color: var(--verde-escuro);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.registerForm,
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.registerGrid span,
+.loginGrid span {
+    font-size: 38px;
+    color: var(--verde);
+    text-align: center;
+    padding: 0;
+}
+
+.forgotContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 20px;
+    height: 500px;
+    padding: 40px;
+    justify-content: center;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.forgotContainer h2 {
+    font-size: 32px;
+    color: var(--verde);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forgotContainer span {
+    font-size: 38px;
+    color: var(--verde);
+    text-align: center;
+    padding: 0;
+}
+
+.backBtn {
+    position: absolute;
+    top: 20px;    /* Distância do topo */
+    left: 20px;   /* Distância da esquerda */
+    cursor: pointer;
+    color: var(--verde-escuro); /* Ou roxo, dependendo do seu tema */
+    transition: transform 0.2s;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, var(--verde), var(--verde-escuro));
+    width: 100%;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.4s ease;
+    max-height: 40px;
+}

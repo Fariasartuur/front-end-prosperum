@@ -1,0 +1,20 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, var(--verde), var(--verde-escuro));
+    width: fit-content;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.4s ease;
+    max-height: 40px;
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--verde);
+}

@@ -1,0 +1,18 @@
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.newButton {
+    font-weight: 500;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 14px;
+    background: linear-gradient(70deg, var(--verde-escuro), var(--verde));
+    transition: background-color 0.3s, transform 0.2s;
+}

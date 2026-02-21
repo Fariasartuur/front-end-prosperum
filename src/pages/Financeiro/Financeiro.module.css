@@ -1,0 +1,62 @@
+.welcome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(135deg, white, var(--verde));
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h3 {
+    margin-bottom: 10px;
+}
+
+.welcome .descricao {
+    color: var(--verde-escuro);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.opcoes {
+  display: flex;          
+  flex-direction: column;      
+  gap: 30px;             
+  text-align: center;
+  justify-content: center;   
+  align-items: center;   
+  min-height: 12vh;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 0 0 auto;
+}
+
+.graficoArea {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+
+.financeCards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    max-width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.receitaTotal { font-weight: bold; color: #2ecc71; /* verde */ }
+.despesaTotal { font-weight: bold; color: #e74c3c; /* vermelho */ }
+.lucroLiquido { font-weight: bold; color: #27ae60; /* verde escuro */ }
+.margemLucro { font-weight: bold; color: #f39c12; /* laranja/dourado */ }
+.capitalGiro { font-weight: bold; color: #2980b9; /* azul */ }
+.indiceLiquidez { font-weight: bold; color: #8e44ad; /* roxo */ }

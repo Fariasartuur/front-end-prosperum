@@ -1,0 +1,24 @@
+.label {
+    font-size: 14px;
+    color: #4a5565;
+}
+
+.input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--verde);
+    border-radius: 6px;
+    padding: 8px 12px;
+    
+}
+
+.input:disabled {
+    background: #e2e8f0;
+    cursor: not-allowed;
+}
+
+.input::placeholder {
+    color: #a0aec0;
+}
+
